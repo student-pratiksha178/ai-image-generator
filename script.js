@@ -1,4 +1,4 @@
-const accesskey ="wGLFZ1tP8kcxa6x_h_pg9bUXEaJ5fJSRQa8LI0lAM_k";
+const accesskey ="your own acess key";
 
 const searchForm=document.getElementById("search-form");
 const searchBox=document.getElementById("search-box");
@@ -6,12 +6,12 @@ const searchResult=document.getElementById("search-result");
 const showMoreBtn=document.getElementById("show-more-btn");
 
 
-let keyword="4wVlpVgHtI8prtexmhAw6mAtMrAtUH1pw4m_iRsnb-A";
+let keyword="add keyword";
 let page=1;
 
 async function searchImage(){
     keyword=searchBox.value;
-    const url=`https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accesskey}&per_page=12` ;
+    const url=`add url` ;
 
     const response=await fetch(url);
     const data=await response.json();
